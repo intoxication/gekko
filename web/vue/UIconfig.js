@@ -12,7 +12,7 @@ const CONFIG = {
   },
   ui: {
     ssl: false,
-    host: 'localhost',
+    host: 'pacific-brushlands-17080.herokuapp.com',
     port: 3000,
     path: '/'
   },
