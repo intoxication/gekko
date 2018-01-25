@@ -13,7 +13,7 @@ const CONFIG = {
   ui: {
     ssl: true,
     host: 'pacific-brushlands-17080.herokuapp.com',
-    port: 3000,
+    port: 443,
     path: '/'
   },
   adapter: 'sqlite'
