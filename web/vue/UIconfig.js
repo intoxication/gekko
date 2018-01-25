@@ -11,7 +11,7 @@ const CONFIG = {
     timeout: 120000 // 2 minutes
   },
   ui: {
-    ssl: false,
+    ssl: true,
     host: 'pacific-brushlands-17080.herokuapp.com',
     port: 3000,
     path: '/'
