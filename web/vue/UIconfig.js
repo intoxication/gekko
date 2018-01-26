@@ -13,7 +13,7 @@ const CONFIG = {
         ssl: true,
         host: 'dipiy.herokuapp.com',
         port: 443,
-        path: '/' // change this if you are serving from something like `example.com/gekko`
+        path: 'dipiy.herokuapp.com/gekko' // change this if you are serving from something like `example.com/gekko`
     },
     adapter: 'sqlite'
 }
