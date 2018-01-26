@@ -8,18 +8,14 @@ const CONFIG = {
   api: {
     host: '127.0.0.1',
     port: 3000,
-    timeout: 120000 // 2 minutes
+    
   },
   ui: {
     ssl: true,
-    host: 'pacific-brushlands-17080.herokuapp.com',
+    host: 'dipiy.herokuapp.com',
     port: 443,
     path: '/'
   },
   adapter: 'sqlite'
 }
 
-if(typeof window === 'undefined')
-  module.exports = CONFIG;
-else
-  window.CONFIG = CONFIG;
